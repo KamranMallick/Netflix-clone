@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color:var(--white);
+}
+:root{
+    --white:white;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    height: 690px;
+    position: relative;
+}
+.container::before{
+    content: "";
+    background-image: url("assets/images/bg.jpg") ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.69;
+}
+.box{
+    margin: 0px 174px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.btn1{
+    padding: 5px;
+    background-color: rgb(49 47 47 / 55%);
+    border-radius: 5px;
+    padding: 6px 26px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    padding:6px 16px ;
+    margin: 0px 0px 0px 13px;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 184px 0px;
+}
+.text > :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+}
+.text > :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px;
+}
+.text > :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
+}
+
+.start :nth-child(1){
+    padding: 20px 181px 15px 12px;
+    margin: 12px 4px 0px 0px;
+    background-color: #1d1b1b2e;
+    border-radius: 4px;
+}
+.start :nth-child(2){
+    padding: 15px 27px 15px 27px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 18px 0px 0px;
+    background-color: rgb(193, 17, 25);
+    border-radius: 4px;
+    cursor: pointer;
+}
+input::placeholder{
+    /* font-weight: bold; */
+    font-size: 17px;
+    color: rgb(167, 161, 161);
+} 
+.separation{
+    height: 10px;
+    width: 100%;
+    background-color: #393535;
+}
+.box2{
+    height: 555px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items:center;
+    align-items: center;
+    margin: 0px 166px;
+}
+.text2 >:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 1px 14px 0px;
+}
+
+.text2 >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.img1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+}
+.vdo1{
+    grid-column: 2/2;
+    grid-row: 1/2;
+    
+}  
+.box3{
+    height: 555px;
+    margin: 0px 166px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items:center;
+    align-items: center;
+}
+.text3 >:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    margin: 12px 0px;
+}
+.text3 >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box4{
+    height: 555px;
+    margin: 0px 166px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items:center;
+    align-items: center;
+}
+
+.img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    
+}
+.vdo2{
+    max-width: 62%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    position: relative; 
+    z-index: -1;
+    top: -71px;
+    overflow: hidden;
+    
+}  
+.text4 >:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    margin: 12px 0px;
+}
+.text4 >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box5{
+    height: 555px;
+    margin: 0px 166px;
+    display: grid;
+    grid-template-columns: 49% 51%;
+    justify-items:center;
+    align-items: center;
+}
+.text5 >:nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    margin: 12px 0px;
+}
+.text5 >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.faqbox{
+    height: 666px;
+    margin: 0px 166px;
+}
+.rest:hover{
+    background-color:#3d3d3c;
+    transition: all 1s ease-out;
+}
+.top{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 52px 0px 20px 0px;
+}
+.rest{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 22px;
+    margin: 8px;
+    background-color: #2d2d2c;
+    cursor: pointer;
+    
+}
+
+.head{
+    margin: 60px 166px 20px 166px;
+}
+.footpart{
+    margin: 0px 166px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-size:14px;
+    font-weight: 200;
+    cursor: pointer;
+}
