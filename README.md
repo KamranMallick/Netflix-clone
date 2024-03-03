@@ -1,2 +1,2 @@
-# video53_project1-netflix
+# Netflix Clone 
  This is my netflix clone project 
